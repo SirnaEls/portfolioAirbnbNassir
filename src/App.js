@@ -35,11 +35,14 @@ function App() {
             overflowY: "scroll",
           }}
         >
+          <Box>
+            <Container sx={{fontSize:'40px', fontWeight:'900', color:'grey'}}> Je suis Nassir El Abbassi, <br></br>Développeur Fullstack & UI Designer <hr></hr></Container>
+          </Box>
           <Container maxWidth="xl" sx={{ mb: 3 }}>
             <LocationCards />
             <Box
               sx={{
-                display: { xs: 'flex', md: 'none' },
+                display: { xs: "flex", md: "none" },
               }}
             >
               <MobileFooter />
